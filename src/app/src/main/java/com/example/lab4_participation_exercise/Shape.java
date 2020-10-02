@@ -3,6 +3,7 @@ package com.example.lab4_participation_exercise;
 public abstract class Shape {
     private int x;
     private int y;
+    private String color = "violet";
 
     public Shape(int x, int y) {
         this.x = x;
